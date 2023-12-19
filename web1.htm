@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TpCortz</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+    
+    
+    body {
+      background-image: url(https://i.imgur.com/P2pCxEd.gif);
+      height: 100vh;
+      background-position: cover;
+      background-size: black;
+    }
+    
+    .imej1 {
+      width: 150px;
+      opacity: none;
+      filter: drop-shadow(0px 0px 5px #FFFFFF);
+      transition: 0.9s;
+      
+      animation-name: imej1mated;
+      animation-duration: 0.9s;
+      
+      position: relative;
+      top: -220px;
+    }
+    @keyframes imej1mated{
+      from{
+        position: relative;
+        top: -210px;
+        
+        opacity: .0;
+      }
+      to{
+        position: relative;
+        top: -220px;
+        
+        opacity: none;
+      }
+    }
+    
+    .imej2 {
+      width: 350px;
+      opacity: none;
+      filter: drop-shadow(0px 0px 5px #FFFFFF);
+      transition: 0.9s;
+      
+      position: relative;
+      top: -20px;
+      
+      animation-name: imej2mated;
+      animation-duration: 5s;
+    }
+    .imej1:hover{
+      width: 120px;
+    }
+    .imej2:hover {
+      width: 330px;
+    }
+    @keyframes imej2mated{
+      from{
+        opacity: .10;
+        top: -30px
+      }
+      to{
+        opacity: none;
+        top: -20px;
+      }
+    }
+    
+    .class2 {
+      opacity: none;
+      
+      position: relative;
+      top: 270px;
+      
+      animation-name: class2mated;
+      animation-duration: 2s;
+    }
+    @keyframes class2mated{
+      from{
+        opacity: .10;
+        top: 260px;
+      }
+      to{
+        opacity: none;
+        top: 270px;
+      }
+    }
+    .text1 {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      color: white;
+      text-shadow: 0px 0px 5px white;
+      
+      animation-name: text1mated;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes text1mated{
+      0%{
+        color: white;
+      }
+      50%{
+        color: #313131;
+      }
+      100%{
+        color: white;
+      }
+    }
+    
+    .custom-shape-divider-top-1701762756 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1701762756 svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 150px;
+    }
+    
+    .custom-shape-divider-top-1701762756 .shape-fill {
+      fill: #C7C7C7;
+    }
+    
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+      .custom-shape-divider-top-1701762756 svg {
+        width: calc(100% + 1.3px);
+        height: 73px;
+      }
+    }
+    
+    .text2 {
+      color: white;
+      width: 290px;
+      font-weight: bold;
+      text-shadow: 0px 0px 5px white;
+      font-family: 'Dhurjati', sans-serif;
+      font-size: 20px;
+      
+      position: relative;
+      top: none;
+    }
+    
+    .class3 {
+      border: 2px solid white;
+      border-radius: 10px;
+      height: 300px;
+      background: transparent;
+      backdrop-filter: blur(2px);
+      opacity: none;
+      backdrop-filter: drop-shadow(0px 0px 5px white);
+      
+      position: relative;
+      top: 280px;
+      
+      animation-name: class3mated;
+      animation-duration: 7s;
+    }
+    @keyframes class3mated{
+      from{
+        opacity: .10;
+        top: 290px;
+      }
+      to{
+        opacity: none;
+        top: 280px;
+      }
+    }
+    
+    span {
+      color: red;
+      text-shadow: 0px 0px 5px red;
+      font-weight: bold;
+    }
+    
+    .button1 {
+      background: none;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-bottom: 3px solid white;
+      justify-content: stretch;
+      transition: 0.9s;
+    }
+    .button2 {
+      background: none;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-bottom: 3px solid white;
+      justify-content: stretch;
+      transition: 0.9s;
+    }
+    .button3 {
+      background: none;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-bottom: 3px solid white;
+      justify-content: stretch;
+      transition: 0.9s;
+    }
+    .button4 {
+      background: none;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-bottom: 3px solid white;
+      justify-content: stretch;
+      transition: 0.9s;
+    }
+    .button5 {
+      background: none;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-bottom: 3px solid white;
+      justify-content: stretch;
+      transition: 0.1s;
+    }
+    .button1:hover,.button2:hover,.button3:hover,.button4:hover,.button5:hover {
+      color: red;
+      text-shadow: 0px 0px 5px white;
+      border-bottom: 3px solid red;
+    }
+    
+    .class4 {
+      position: relative;
+      top: 270px;
+    }
+    
+    .text3 {
+      color: red;
+      text-shadow: 0px 0px 5px red;
+      font-size: 7px;
+    }
+    
+    .class5 {
+      position: relative;
+      top: 290px;
+      left: 370px;
+      
+      animation-name: class5mated;
+      animation-duration: 20s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+    @keyframes class5mated{
+      from{
+        left: 370px;
+      }
+      to{
+        left: -380px;
+      }
+    }
+    
+    .class6 {
+      position: relative;
+      top: 350px;
+      box-align: center;
+    }
+    .text4 {
+      text-align: center;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      text-decoration: underline 3px solid white;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body id="change">
+  <div class="custom-shape-divider-top-1701762756">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+    </svg>
+    <div class="class1">
+      <center>
+        <center>
+        <img class="imej2" src="https://i.imgur.com/w1IUlX8.png">
+        </center>
+        <br>
+      <img class="imej1" src="https://i.imgur.com/Mjt36dg.png">
+      </center>
+    </div>
+  </div>
+  <div class="class2">
+    <center>
+    <h1 class="text1">H A I F I L</h1>
+    </center>
+  </div>
+  <center>
+  <div class="class4">
+    <a href="#preset">
+    <button class="button1" type="submit">
+      PRESET
+    </button>
+    </a>
+    <a href="web3.htm">
+    <button class="button2" type="submit">
+      STORE
+    </button>
+    </a>
+    <a href="web4.htm">
+    <button class="button3" href="" type="submit">
+      COMMAND
+    </button>
+    </a>
+    <a href="web5.htm">
+    <button class="button4" href="" type="submit">
+      KELAS
+    </button>
+    </a>
+    <a href="web1.htm">
+        <button class="button5" href="" type="submit">
+          WEB
+        </button>
+        </a>
+    </center>
+  </div>
+  <div class="class3">
+    <center>
+    <p class="text2">
+      Hai Di Sana Selamat Datang Di Website Saya. Dan Ini Adalah Website Offcial Dari <span>@haifil.png</span>. Saya Harap Website Ini Akan Membantu Anda. Saya Juga Menyediakan <span>Preset Alight Motion</span>, <span>Store Marketing</span>, <span>Command Termux Toturial</span> Dan <span>Kelas Hacking</span>.
+    </p>
+    </center>
+  </div>
+  <div class="class5">
+    <b class="text3">
+      website ini hak cipta malaysia || hak cipta indonesia || 2023 copyright @haifil.png
+    </b>
+  </div>
+  <div class="class6" id="preset">
+    <h1 class="text4">
+      PRESET
+    </h1>
+    <br>
+    <center>
+    <video src="https://www.instagram.com/reel/C01Haj-rHi7/?igshid=ZDE1MWVjZGVmZQ==" controls>
+    </center>
+  </div>
+</body>
+<script>
+  
+</script>
+</html>
